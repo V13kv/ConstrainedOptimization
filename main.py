@@ -1,5 +1,5 @@
-from RAdam import RAdam
-from tools import BarrierMethodTools
+from optimizers.RAdam import RAdam
+from tools.tools import BarrierMethodTools
 
 import sympy as sp
 
