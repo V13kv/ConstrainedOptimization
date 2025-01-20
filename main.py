@@ -24,7 +24,7 @@ optimizer = RAdam(lr=1e-2)
 
 # Solve the constrained optimization problem using BarrierMethodTools
 optimized_params = BarrierMethodTools.optimize_with_adaptive_barrier(
-    f, constraints, initial_guess, optimizer, mu_0=1.0, num_iterations=100, mu_decay=0.9
+    f, constraints, initial_guess, optimizer, mu_0=1.0, num_iterations=1000, mu_decay=0.9
 )
 
 # Print the optimized parameters

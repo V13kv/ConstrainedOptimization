@@ -1,7 +1,7 @@
 import sympy as sp
 import numpy as np
 
-# TODO: equalities support (see penalty method combined with barrier method (see book))
+# TODO: #1 equalities support (see penalty method combined with barrier method (see book))
 
 class BarrierMethodTools:
     """A static class containing utility functions for the barrier method."""
@@ -186,7 +186,7 @@ class BarrierMethodTools:
             mu *= mu_decay
 
             # Print progress
-            if (iteration + 1) % 10 == 0:
+            if (iteration + 1) % 100 == 0:
                 loss = objective_function(*params)
                 print(f"Iteration {iteration + 1}: Parameters = {[p[0] for p in params]}, Loss = {loss[0]:.4f}, mu = {mu:.4f}")
 
