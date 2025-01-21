@@ -1,5 +1,5 @@
-# ConstrainedOptimization
-Algorithms for solving nonlinearly constrained optimization problems
+# UnconstrainedOptimization
+Algorithms for solving uconstrained optimization problems
 
 # Usage
 ## Windows
